@@ -3,12 +3,41 @@
     <head>
         <meta charset = "utf-8" />
         <meta name = "viewport" content = "width=device-width" />
-
-        <title>Welcome to my page</title>
+        <meta name = "keywords" content = "resume, linkedin, about me, stephen, young">
+        <meta name = "description" content = "Stephen Young's Personal Website">
+        <meat name = "author" content = "Stephen Young"> 
+        <title>Stephen Young's Personal Website</title>
         <link href = "stylesheet.css" rel = "stylesheet" type = "text/css" />
+        <style>
+                .box {
+                background-color: lightblue;
+                color: white;
+                border: 2px solid black;
+                margin: 20px;
+                padding: 20px;
+                }
+                #myHeader{
+                    background-color: lightblue;
+                    color: black;
+                    padding: 40px;
+                    text-align: center;
+                }
+        </style>
     </head>
     <body>
-        <header><h1> Stephen Young's Personal Website</h1></header>
-        <p> Hi, I am Stephen Young and I am a Junior ECE major at University of Texas at Austin. </p>
+        <header>
+            <h1 id = "myHeader"> Stephen Young's Personal Website</h1>
+        </header>
+        <div class="box">
+            <h2>About</h2>
+            <p> Hi, I am Stephen Young and I am a Junior ECE major at University of Texas at Austin. I am taking a the Software Engineering and Development Track. Here is my <a id = "link" href = "https://www.linkedin.com/in/stephen-southworth-young/">LinkedIn</a>.</p>
+            
+        </div>
+        <div class="box">
+            <h2>Resume</h2>
+            <img src = resume.jpg>
+        </div>
+
+        
     </body>
 </html>
